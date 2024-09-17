@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <div id="container">
+        <h3>Password Generator</h3>
+        
+        <div id="passwordcontainer">
+            <div id="resultdiv"><input type="text" id="result" inline" placeholder="P$F%*0!"/><i onclick="copy()" class="fa-regular fa-copy"></i></div>
+            <div id="conditiondiv">
+            <p class="bggray">Character Length</p>
+            <h6 id="numberofsymbols">0</h6>
+            <input type="range" id="bar" step="1" value="0" max="30"><br>
+            <input type="checkbox" id="uppercase"><h4 class="checks inline">Include Uppercase Letters</h4><br>
+            <input type="checkbox" id="lowercase"><h4 class="checks inline">Include Lowercase Letters</h4><br>
+            <input type="checkbox" id="number"><h4 class="checks inline">Include Numbers</h4><br>
+            <input type="checkbox" id="symbol"><h4 class="checks inline">Include Symbols</h4><br>
+            <div id="strengthdiv">
+                <h3 id="stikcstext"  class="inline">Strength
+                <span id="sticks">
+                    <span class="recs" id="rec1">▋</span>
+                    <span class="recs" id="rec2">▋</span>
+                    <span class="recs" id="rec3">▋</span>
+                    <span class="recs" id="rec4">▋</span>
+                </span></h3>
+            </div>
+            <button id="generate" onclick="generate()"> GENERATE <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

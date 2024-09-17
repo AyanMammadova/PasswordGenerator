@@ -1,0 +1,91 @@
+*{
+    color: white;
+    margin: 0;
+    font-family: monospace;
+    padding: 0;
+}
+#generate{
+    width: 100%;
+    border: none;
+    height: 50px;
+    margin: 30px 0 0 0;
+    color: black;
+    text-align: center;
+    background-color: greenyellow;
+    font-weight: bolder;
+    font-size: 1.1em;
+}
+.fa-arrow-right{color: black;font-weight: bold;}
+#conditiondiv>*{padding: 4px 0;}
+
+.inline{display: inline;}
+#numberofsymbols{color: greenyellow;font-size: 1.4em;}
+#container{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#conditiondiv{
+    padding: 30px;
+    position: relative;
+    margin-top: 20px;
+}
+#bar{
+    width: 90%;
+}
+#numberofsymbols{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+h3{
+    margin-top: 50px;
+}
+#passwordcontainer{
+    max-width: 500px;
+    margin: auto;
+}
+#resultdiv{
+    background-color: #3f3d3d;
+    color: rgb(209, 204, 204);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+#stikcstext{
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    margin: 10px;
+}
+#sticks{
+    font-size: 1.2em;
+}
+#resultdiv>i{color: greenyellow;font-size: 2em;cursor: pointer;}
+#resultdiv>h2{color: #b7b1b1;}
+
+#conditiondiv{
+    font-size: 1.2em;
+    background-color: #3f3d3d;
+}
+.bggray{background-color: #3f3d3d;}
+
+#result{
+    font-size: 2em;
+    background-color: #3f3d3d;
+    border: none;
+}
+
+@media screen and (max-width: 550px){
+    #passwordcontainer{
+        width: 80%;
+    }
+    #result{
+        width: 90%;
+    }
+}
