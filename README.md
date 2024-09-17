@@ -5,7 +5,8 @@ Welcome to my Currency Calculator website! This project allows users to calculat
 
 ## Screenshots 📸
 
-![Screenshot_47](https://github.com/user-attachments/assets/cdca0022-7eb0-48bc-bff5-b9f403ff05c0)
+![Screenshot_47](https://github.com/user-attachments/assets/094d4e42-a442-4098-a303-1909e870e1f9)
+
 
 
 ## Features ✨
