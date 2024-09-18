@@ -24,4 +24,4 @@ Welcome to my Currency Calculator website! This project allows users to calculat
 
 ## Deployment 🚀
 
-The website is deployed and accessible at https://ayanmammadova.github.io/PasswordGenerator/
+The website is deployed and accessible at  https://password-generator-three-lemon.vercel.app/
